@@ -184,3 +184,12 @@ radio-signal-prediction/
 Spatial and frequency context provide substantial predictive value for LTE RSRP.
 
 Using spatial holdout evaluation, the final gradient-boosting model achieves approximately 12 dB RMSE on unseen geographic blocks, with stable performance across five independent spatial splits.
+
+## Experimental Notes
+
+The repository also contains exploratory experiments that were not selected for the final model.
+
+- `evaluate_categorical.py` tests dense one-hot encoding of categorical network identifiers. The approach became computationally expensive and was not used in the final model.
+- `evaluate_target_models.py` compares squared-error and absolute-error training losses. The experiment was not completed across all five spatial splits, so its results are not used for the headline performance metrics.
+
+The reported final performance comes from the reproducible five-seed evaluation in `evaluate_baselines.py`.
