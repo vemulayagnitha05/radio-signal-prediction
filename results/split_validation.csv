@@ -1,0 +1,2 @@
+train_rows,test_rows,train_blocks,test_blocks,train_cells,test_cells,seen_test_cells,unseen_test_cells,seen_test_cell_pct,unseen_test_cell_pct,train_operators,test_operators,unseen_test_channels
+426049,103675,1132,282,5656,4768,4745,23,99.51761744966443,0.4823825503355705,3,3,0

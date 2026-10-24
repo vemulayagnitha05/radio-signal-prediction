@@ -1,0 +1,4 @@
+experiment,rmse_mean_db,rmse_std_db,r2_mean,r2_std,improvement_vs_global_db,improvement_vs_group_db
+Global mean baseline,15.862,0.423,-0.001,0.001,,
+Operator + channel baseline,14.404,0.37,0.175,0.009,,
+Final ML model,11.948,0.087,0.431,0.024,3.9139999999999997,2.4559999999999995
